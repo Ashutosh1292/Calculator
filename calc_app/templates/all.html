@@ -1,0 +1,48 @@
+{% extends 'basic.html' %}
+
+{% block content %}
+<div class="alert alert-success" role="alert">
+  Finding all Mathematical Expression between {{first_Number}} and {{Second_Number}}
+</div>
+<div class="container_fluid">
+  <table border="3px" class="table-striped" style="margin-left: 450px;width: 503.99306px;">
+    <thead class="thead-dark" >
+      <th>Action</th>
+      <th>Reasult</th>
+    </thead>
+    <tr>
+      <td>Addition</td>
+      <td>{{Addition}}</td>
+    </tr>
+    <tr>
+      <td>Multipication</td>
+      <td>{{Multipication}}</td>
+    </tr>
+    <tr>
+      <td>Division</td>
+      <td>{{Division}}</td>
+    </tr>
+    <tr>
+      <td>Subtraction</td>
+      <td>{{Subtraction}}</td>
+    </tr>
+  <tr>
+    <td>Modulo</td>
+    <td>{{Modulo}}</td>
+  </tr>
+  <tr>
+    <td>Double Division</td>
+    <td>{{Double_Division}}</td>
+  </tr>
+  <tr>
+    <td>Powar</td>
+    <td>{{Powar}}</td>
+  </tr>
+  <tr>
+    <td>Precentege</td>
+    <td>{{precentege}}</td>
+  </tr>
+  </table>
+
+</div>
+{% endblock  %}

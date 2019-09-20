@@ -1,0 +1,36 @@
+{% extends 'basic.html' %}
+
+{% block content %}
+<div class="container-fluid"><br>
+  <form action="output" method="get">
+
+    <input type="number" name="nm_1" placeholder="Enter First number here" required><br><br>
+    <input type="number" name="nm_2" placeholder="Eneter Second Number here" required><br>
+    <input type="radio" id="rd_1" name="s" value="sm">
+    <label for="rd_2">Add two numbers</label><br>
+    <input type="radio" id="rd_2" name="s" value="pr">
+    <label for="rd_2">Find Product of two number</label><br>
+    <input type="radio" id="rd_3" name="s" value="div" >
+    <label for="rd_3">Find Division of two number</label><br>
+    <input type="radio" id="rd_4" name="s" value="sub" >
+    <label for="rd_4">Find Substraction of two number</label><br>
+    <input type="radio" id="rd_5" name="s" value="mod" >
+    <label for="rd_5">Find Modulo of two number</label><br>
+    <input type="radio" id="rd_6" name="s" value="d_div" >
+    <label for="rd_6">Find Double Division of two number</label><br>
+    <input type="radio" id="rd_7" name="s" value="pow" >
+    <label for="rd_7">Find To The Powar </label><br>
+    <input type="radio" id="rd_8" name="s" value="per" >
+    <label for="rd_8">Find  The Percentage </label><br>
+    <input type="radio" id="rd_9" name="s" value="rt" >
+    <label for="rd_9">Find  Square root of both </label><br>
+    <input type="submit"  value="Submit">
+
+  </form>
+
+
+</div>
+
+
+
+{% endblock  %}
